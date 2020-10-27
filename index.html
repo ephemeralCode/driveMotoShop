@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Интернет-магазин Drive Moto</title>
+
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap" rel="stylesheet">
+  
+    <script defer src="/js/cour.js"></script>
+    <script defer src="/js/popularCarousel.js"></script>
+  </head>
+
+  <body>
+<!--header-->
+    <header class="header">
+      <div class="containerHeader container">
+        <div class="containerLinkHeader">
+          <a class="linkHeader" href="">Магазины</a>
+          <a class="linkHeader" href="">Акции</a>
+          <a class="linkHeader" href="">Доставка и оплата</a>
+        </div>
+
+        <a class="logo" href=""><img src="/images/logo.svg" alt=""></a>
+
+        <div class="containerAdress">
+          <img src="/images/locate.svg" alt="">
+          <p class="adress">Москва, ул. Науки 25</p>
+        </div>
+        
+        <div class="containerBtnHeader">
+          <a class="btnHeader">
+            <img src="/images/ourLike.svg" alt=""></a>
+          <a class="btnHeader">
+            <img src="/images/user.svg" alt=""></a>
+          <a class="btnHeader basket">
+            <img src="/images/chain.svg" alt="">
+            <span class="basketNum">2</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+<!--nav-->
+    <nav class="nav">
+      <div class="containerNav container">
+          <a class="btnNav" href="">Квадроциклы</a>
+          <a class="btnNav" href="">Катера</a>
+          <a class="btnNav" href="">Гидроциклы</a>
+          <a class="btnNav" href="">Лодки</a>
+          <a class="btnNav" href="">Вездеходы</a>
+          <a class="btnNav" href="">Снегоходы</a>
+          <a class="btnNav" href="">Двигатели</a>
+          <a class="btnNav" href="">Запчасти</a>
+      </div>
+    </nav>
+
+<!--bannerCarousel-->
+    <section class="bannerCarousel">
+      <div class="containerBannerCarousel container">
+        <div class="wrapperBannerCarousel">
+          <!--slide-->
+          <a class="slide" href="#">
+            <img class="imgSlide" src="images/content/slide.jpg" alt="">
+          </a>
+
+          <!--slide-->
+          <a class="slide" href="#">
+            <img class="imgSlide" src="https://www.personalwatercraft.com/blog/wp-content/uploads/2015/06/Beach-Party-960x546.jpg" alt="">
+          </a>
+
+          <!--slide-->
+          <a class="slide" href="#">
+            <img class="imgSlide" src="images/content/slide.jpg" alt="">
+          </a>
+
+          <!--slide-->
+          <a class="slide" href="#">
+            <img class="imgSlide" src="https://pravogolosa.net/images/com_adsmanager/ads/116402a.jpg" alt="">
+          </a>
+
+          <!--slide-->
+          <a class="slide" href="#">
+            <img class="imgSlide" src="images/content/slide.jpg" alt="">
+          </a>
+
+          <!--slide-->
+          <a class="slide" href="#">
+            <img class="imgSlide" src="https://www.autodepotrecreationgroup.ca/wp-content/uploads/2019/08/2018-kawasaki-jet-ski-ult-18-1-600x400.jpg" alt="">
+          </a>
+
+          <!--TODO slideArrows-->
+          <a class="carouselSlideLeft">
+            <img src="images/arrowLeft.svg" alt="">
+          </a>
+
+          <a class="carouselSlideRight">
+            <img src="images/arrowRight.svg" alt="">
+          </a>
+
+          <!--slideDots-->
+          <div class="containerSlideDots">
+            <div class="carouselSlideDots"></div>
+            <div class="carouselSlideDots"></div>
+            <div class="carouselSlideDots"></div>
+            <div class="carouselSlideDots"></div>
+            <div class="carouselSlideDots"></div>
+            <div class="carouselSlideDots"></div>
+          </div>
+        </div>
+
+        <!--discountItem-->
+        <a class="discountItem" href="#">
+          <div class="containerDiscountPrice">
+            <p class="itemSale">Акция</p>
+            
+            <div class="discountPrice">
+              <p class="itemPriceNew">190 000 <img src="images/valueIconNew.svg" alt=""></p>
+              <p class="itemPriceOld">226 000 <img src="images/valueIconOld.svg" alt=""></p>
+            </div>
+          </div>
+
+          <div class="itemInfo">
+            <img src="images/content/saleItem.png" alt="">
+            <p class="itemName">Лодочный мотор Suzuki DF9.9BRS</p>
+          </div>
+
+          <div class="discountInfo">
+            <p class="discountTitle">Акция действует до</p>
+            <p class="discountText">31.08.2020</p>
+          </div>
+        </a>
+      </div> 
+    </section>
+
+<!--categories-->
+    <section class="categories">
+      <div class="categoriesContainer container">
+        <div class="wrapperCategoriesSearch">
+          <div class="wrapperSearchBtn">
+            <a class="btnTypeSearch btnSearchActive" href="">Поиск по названию товара</a>
+            <a class="btnTypeSearch" href="">Поиск по номеру</a>
+          </div>
+  
+          <div class="categoriesSearch">
+            <input class="inputCategoriesSearch" type="text" placeholder="Введите название товара">
+            <button class="btnCategoriesSearch" type="submit">Искать</button>
+          </div>
+        </div>
+
+        <div class="wrapperCategoriesCards">
+          <!--categoriesCard-->
+          <a class="categoriesCard" href="">
+            <div class="categoriesCardInfo">
+              <p class="categoriesCardTitle">Квадроциклы</p>
+              <p class="categoriesCardText">Подробнее  ></p>
+            </div>
+
+            <div class="categoriesImg">
+              <img src="images/categories1.svg" alt="">
+            </div>
+          </a>
+
+          <!--categoriesCard-->
+          <a class="categoriesCard" href="">
+            <div class="categoriesCardInfo">
+              <p class="categoriesCardTitle">Гидроциклы</p>
+              <p class="categoriesCardText">Подробнее ></p>
+            </div>
+
+            <div class="categoriesImg">
+              <img src="images/categories2.svg" alt="">
+            </div>
+          </a>
+
+          <!--categoriesCard-->
+          <a class="categoriesCard" href="">
+            <div class="categoriesCardInfo">
+              <p class="categoriesCardTitle">Катера</p>
+              <p class="categoriesCardText">Подробнее ></p>
+            </div>
+
+            <div class="categoriesImg">
+              <img src="images/categories3.svg" alt="">
+            </div>
+          </a>
+
+          <!--categoriesCard-->
+          <a class="categoriesCard" href="">
+            <div class="categoriesCardInfo">
+              <p class="categoriesCardTitle">Снегоходы</p>
+              <p class="categoriesCardText">Подробнее ></p>
+            </div>
+
+            <div class="categoriesImg">
+              <img src="images/categories4.svg" alt="">
+            </div>
+          </a>
+
+          <!--categoriesCard-->
+          <a class="categoriesCard" href="">
+            <div class="categoriesCardInfo">
+              <p class="categoriesCardTitle">Вездеходы</p>
+              <p class="categoriesCardText">Подробнее ></p>
+            </div>
+
+            <div class="categoriesImg">
+              <img src="images/categories5.svg" alt="">
+            </div>
+          </a>
+
+          <!--categoriesCard-->
+          <a class="categoriesCard" href="">
+            <div class="categoriesCardInfo">
+              <p class="categoriesCardTitle">Двигатели</p>
+              <p class="categoriesCardText">Подробнее ></p>
+            </div>
+
+            <div class="categoriesImg">
+              <img src="images/categories6.svg" alt="">
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+<!--bannerInfo-->
+    <section class="bannerInfo">
+      <div class="containerBannerInfo container">
+        <a href="#"><img class="imgBannerInfo" src="images/content/bannerInfo.jpg" alt=""></a>
+      </div>
+    </section>
+
+<!--popularProducts-->
+    <section class="popularProducts">
+      <div class="popularProductsContainer">
+        <p class="popularProductsTitle">Популярные товары</p>
+
+        <div class="popularProductsWrapperBtn">
+          <a class="popularProductsBtn popularProductsBtnActive" href="">запчасти</a>
+          <a class="popularProductsBtn" href="">моторы</a>
+          <a class="popularProductsBtn" href="">шины</a>
+          <a class="popularProductsBtn" href="">электроника</a>
+          <a class="popularProductsBtn" href="">инструменты</a>
+          <a class="popularProductsBtn" href="">аксессуары</a>
+        </div>
+
+        <!--TODO popularProductsCarousel-->
+        <div class="popularProductsCarousel">
+          <div class="popularProductsWrapperCards"></div>
+
+          <!--popularCarouselWrapper-->
+          <div class="popularCarouselWrapper">
+            <img class="popularCarouselLeft" src="images/popularCarouselArrowLeft.svg" alt="">
+            <img class="popularCarouselRight" src="images/popularCarouselArrowRight.svg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="wrapperAddMoreCards container">
+        <button class="addMoreCards">Показать еще</button>
+      </div>
+    </section>
+
+<!--footer-->
+    <footer class="footer">
+      <div class="containerFooter container">
+        <div class="wrapperMailSubscription ">
+          <p class="titleMailSubscription">Подпишитесь на нашу рассылку и узнавайте о акция быстрее</p>
+
+          <div class="mailSubscription">
+            <input class="inputMailSubscription" type="text" placeholder="Введите ваш e-mail:"><button class="btnMailSubscription">Отправить</button>
+            
+          </div>
+        </div>
+
+        <div class="wrapperContactInfo">
+          <div class="wrapperContactInfoBtn">
+            <p class="titleContactBnt">Информация</p>
+
+            <a class="contactInfoBtn" href="#">О компании</a>
+            <a class="contactInfoBtn" href="#">Контакты</a>
+            <a class="contactInfoBtn" href="#">Акции</a>
+            <a class="contactInfoBtn" href="#">Магазины</a>
+          </div>
+
+          <a class="contactOfferBtn" href="#">Договор оферты</a>
+        </div>
+
+        <div class="wrapperShopDetails">
+          <div class="wrapperShopDetailsBtn">
+            <p class="titleShopDetailsBtn">Интернет-магазин</p>
+
+            <a class="shopDetailsBtn" href="#">Доставка и самовывоз</a>
+            <a class="shopDetailsBtn" href="#">Оплата</a>
+            <a class="shopDetailsBtn" href="#">Возврат-обмен</a>
+            <a class="shopDetailsBtn" href="#">Новости</a>
+          </div>
+
+          <a class="agreementPolicyBtn" href="#">Политика обработки персональных данных</a>
+        </div>
+        
+        <div class="wrapperSocialBtn">
+          <a class="socialBtn" href="#"><img src="images/content/instagramIcon.svg" alt=""></a>
+          <a class="socialBtn" href="#"><img src="images/content/vkIcon.svg" alt=""></a>
+          <a class="socialBtn" href="#"><img src="images/content/facebookIcon.svg" alt=""></a>
+          <a class="socialBtn" href="#"><img src="images/content/youtubeIcon.svg" alt=""></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
