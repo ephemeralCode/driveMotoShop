@@ -2,7 +2,7 @@ let cardContainer = document.querySelector('.popularProductsWrapperCards');
 let cardTemplate = '';
 let data = [
     {
-        image: 'images/content/popularProduct1.png',
+        image: '../images/content/popularProduct1.png',
         productName: 'Водонепроницаемый Рюкзак',
         productPrice: '9 800 ₽',
         isOnSale: 'false',
@@ -10,7 +10,7 @@ let data = [
     },
 
     {
-        image: 'images/content/popularProduct2.png',
+        image: '../images/content/popularProduct2.png',
         productName: `Спасательный жилет BRP Men's Airflow PFD`,
         productPrice: '6 900 ₽',
         isOnSale: 'true',
@@ -18,7 +18,7 @@ let data = [
     },
 
     {
-        image: 'images/content/popularProduct3.png',
+        image: '../images/content/popularProduct3.png',
         productName: 'BRP Audio-Premium System',
         productPrice: '68 000 ₽',
         isOnSale: 'false',
@@ -26,7 +26,7 @@ let data = [
     },
 
     {
-        image: 'images/content/popularProduct4.png',
+        image: '../images/content/popularProduct4.png',
         productName: 'Спасательное снаряжение',
         productPrice: '9 999 ₽',
         isOnSale: 'true',
@@ -34,7 +34,7 @@ let data = [
     },
 
     {
-        image: 'images/content/popularProduct5.png',
+        image: '../images/content/popularProduct5.png',
         productName: 'Мужской костюм 3мм',
         productPrice: '7 000 ₽',
         isOnSale: 'true',
@@ -42,7 +42,7 @@ let data = [
     },
 
     {
-        image: 'images/content/popularProduct6.png',
+        image: '../images/content/popularProduct6.png',
         productName: 'Мужской костюм 3мм',
         productPrice: '45 800 ₽',
         isOnSale: 'false',
@@ -50,7 +50,7 @@ let data = [
     },
 
     {
-        image: 'images/content/popularProduct7.png',
+        image: '../images/content/popularProduct7.png',
         productName: 'Мужской костюм 3мм',
         productPrice: '9 999 ₽',
         isOnSale: 'true',
@@ -58,7 +58,7 @@ let data = [
     },
 
     {
-        image: 'images/content/popularProduct8.png',
+        image: '../images/content/popularProduct8.png',
         productName: 'Мужской костюм 3мм',
         productPrice: '7 000 ₽',
         isOnSale: 'false',
