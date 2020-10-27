@@ -108,7 +108,7 @@ function createCards(){
                 <div class="containerDiscount">
                     ${saleBanner}
                     
-                    <img src="/images/likeProduct.svg" alt="">
+                    <img src="./images/likeProduct.svg" alt="">
                 </div>
 
                 ${productsInfo}
