@@ -78,7 +78,7 @@ function createCards(){
         if(data[item].isInStock == 'true'){
             productsInfo = `
                 <div class="popularProductsInfo">
-                    <img class="popularProductsImage" src=".${data[item].image}" alt="">
+                    <img class="popularProductsImage" src="${data[item].image}" alt="">
                     
                     <p class="popularProductsName">${data[item].productName}</p>
                     <p class="popularProductsPrice">${data[item].productPrice}</p>
